@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html{
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    background-image: url('../img/fondo.jpg') ;
+    backdrop-filter: blur(2px);
+}
+
+section{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.form-register{
+
+    width: 400px;
+    background: #fff;
+    padding:30px;
+    min-width: 400px;
+    border-radius:4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#212121;
+    font-weight: 700;
+    text-align: center;
+}
+
+.controls{
+    width: 100%;
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #0000;
+    font-family: 'calibri';
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.form-register .boton {
+
+    width: 100%;
+    background: rgb(2, 2, 82);
+    border:none;
+    padding: 12px;
+    color: antiquewhite;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
+
+.form-register .boton:hover{
+    background-color: #8b5cf6;
+    /* color:#212121; */
+}
+
+.pelitabfil{
+    background:white;
+    border-radius: 4px;
+    height: 150px;
+
+    max-width: 500px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0,0.1);
+    animation: float 5s infinite;
+}
+
+th{
+    color:white;
+    background-color: rgb(2, 2, 82);
+    border-bottom: 4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size: 15px;
+    font-weight:100;
+    padding:24px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0,0,0,0,0.1);
+    vertical-align: middle;
+
+}
+
+.tablafin{
+    max-width: 500px;
+    overflow: auto;
+    background:white;
+
+}
+.tablafin .botontab {
+
+    width: 25%;
+    background: red;
+    border:none;
+    border-width:2px ;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+    padding: 7px;
+    color: antiquewhite;
+    margin: 16px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 500ms ease;
+    cursor: pointer;
+}
